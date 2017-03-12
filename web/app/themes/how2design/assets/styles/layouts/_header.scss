@@ -1,0 +1,142 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+.banner .nav a {
+  @extend .nav-link;
+}
+header {
+  .container {
+    height: 177px;
+    text-align: center;
+    .viki-logo-wrapper {
+      width: 228px;
+      height: 64px;
+      float: left;
+      margin-top: 25px;
+      margin-left: 25px;
+      .viki-logo {
+        background-image: url("http://how2design.dev/app/uploads/2017/02/Viki_logo.png");
+        display: inline-block;
+        width: 58px;
+        height: 58px;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .viki-logo-text-wrapper {
+        text-align: left;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 15px;
+        margin-top: 10px;
+        .viki-name {
+          font-family: "GothamBold";
+          font-size: 11px;
+          letter-spacing: 0.14em;
+          line-height: 13px;
+          text-transform: uppercase;
+          display: block;
+          color: $font-color-primary;
+        }
+        .viki-position {
+          font-family: "AdelleLightItalic";
+          font-size: 11px;
+          letter-spacing: 0.1em;
+          line-height: 13px;
+          margin-top: 6px;
+          display: block;
+          color: $font-color-primary;
+        }
+      }
+    }
+    .brand {
+      display: inline-block;
+      line-height: 0;
+      font-size: 0;
+      color: transparent;
+      span:first-child() {
+        font-family: "GothamBold";
+        font-size: 12px;
+        letter-spacing: 0.14em;
+        line-height: 14px;
+        text-transform: uppercase;
+        display: inline-block;
+        color: $font-color-primary;
+        vertical-align: bottom;
+      }
+      div:nth-child(2) {
+        position: relative;
+        width: 20px;
+        height: 70px;
+        display: inline-block;
+        vertical-align: bottom;
+        background-color: $background-color-primary;
+        margin: 0 10px;
+        span {
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          font-family: "GothamBold";
+          font-size: 12px;
+          letter-spacing: 0.14em;
+          line-height: 14px;
+          text-transform: uppercase;
+          display: inline-block;
+          color: $font-color-secondary;
+        }
+      }
+      span:nth-child(3) {
+        font-family: "GothamBold";
+        font-size: 12px;
+        letter-spacing: 0.14em;
+        line-height: 14px;
+        text-transform: uppercase;
+        display: inline-block;
+        color: $font-color-primary;
+        vertical-align: bottom;
+      }
+    }
+    .social-icons-wrapper {
+      float: right;
+      width: 228px;
+      height: 64px;
+      margin-right: 25px;
+      text-align: right;
+      a {
+        margin: 45px 10px 0;
+        display: inline-block;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        background-color: $background-color-primary;
+      }
+    }
+    .nav-primary {
+      border-top: 1px solid $background-color-primary;
+      border-bottom: 1px solid $background-color-primary;
+      margin: 30px 0;
+      .menu-main-menu-container {
+        text-align: center;
+        ul {
+          margin: 10px 0;
+          display: inline-block;
+          text-align: center;
+          padding-left: 0;
+          li {
+            display: inline-block;
+            a {
+              margin: 0 20px;
+              font-family: "GothamBold";
+              font-size: 9px;
+              letter-spacing: 0.14em;
+              line-height: 13px;
+              text-transform: uppercase;
+              display: block;
+              color: $font-color-primary;
+            }
+          }
+        }
+      }
+    }
+  }
+}
